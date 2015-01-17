@@ -9,7 +9,7 @@ Shell script is a modification of [this SH from StackOverflow](http://stackoverf
 ### To play around with the hook:
 
 1.  Make sure you have [Git](http://git-scm.com/downloads) and [Node.js](http://nodejs.org/) installed
-2.  `$ git clone [git@github.com:sbedulin/jshint-pre-commit-hook.git](git@github.com:sbedulin/jshint-pre-commit-hook.git)`
+2.  `$ git clone git@github.com:sbedulin/jshint-pre-commit-hook.git`
 3.  `$ cd jshint-pre-commit-hook`
 4.  `$ npm install`
 5.  `$ grunt jshint-hook` - this task will copy `.jshint-pre-commit-hook` file to `.git\hooks` folder
@@ -18,3 +18,15 @@ Shell script is a modification of [this SH from StackOverflow](http://stackoverf
 
 * JSHint rules are listed in `.jshintrc`
 * JSHint ignores are listed in `.jshintignore`
+
+This is how sample validation output looks in the console:
+
+![Console](http://i.imgur.com/M8Cazvz.png)
+
+WebStorm
+
+![WebStorm](http://i.imgur.com/sJPBIFZ.png)
+
+and TurtoiseGit
+
+![TurtoiseGit](http://i.imgur.com/snEaHzn.png)
