@@ -1,0 +1,25 @@
+{
+    "undef": true,
+    "unused": true,
+    "browser": true,
+    "devel": true,
+    "jquery": true,
+    "predef": ["angular", "describe", "beforeEach", "it", "expect"],
+
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": false,
+    "forin": true,
+    "freeze": true,
+    "immed": true,
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonbsp": true,
+    "nonew": true,
+    "maxlen": 120,
+    "latedef": "nofunc",
+    "quotmark": "single",
+
+    "indent": 4
+}
